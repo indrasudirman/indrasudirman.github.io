@@ -13,12 +13,12 @@ const IndexPage = () => (
     <Layout>
       <Seo
         title="Indra B Sudirman"
-        description="Holo is a visually striking and highly customizable open source theme built on the powerful Gatsby framework and integrated with the versatile Decap CMS."
+        description="This is my personal blog."
       ></Seo>
       <Header></Header>
-      <FeatureSection></FeatureSection>
-      <FeaturedBlog></FeaturedBlog>
-      <Testimonial></Testimonial>
+      {/* <FeatureSection></FeatureSection>
+      <FeaturedBlog></FeaturedBlog> */}
+      {/* <Testimonial></Testimonial> */}
     </Layout>
   </div>
 )

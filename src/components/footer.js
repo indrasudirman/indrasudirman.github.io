@@ -24,26 +24,24 @@ const Footer = () => {
               </p>
               <div className="text-black font-bold block-inline">
                 <p>
-                  <a className="text-black font-bold block-inline" href="/">
-                    Holo
-                  </a>
-
+                  {" "}
+                  Gatsby theme by{" "}
                   <a
-                    className="text-black font-semibold ml-1"
+                    className="text-black font-bold block-inline"
+                    href="https://github.com/lilxyzz/holo-theme"
                     target="_blank"
-                    href="https://travislord.xyz"
                   >
-                    By TL
+                    Holo
                   </a>
                   <a
                     href="https://github.com/lilxyzz/holo-theme"
                     target="_blank"
                   >
-                    <img
+                    {/* <img
                       className="w-5 h-5 mt-1"
                       src="/img/Github-Logo.png"
                       alt="GitHub"
-                    ></img>
+                    ></img> */}
                   </a>
                 </p>
               </div>
